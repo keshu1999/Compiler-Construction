@@ -1,0 +1,118 @@
+FIRST AND FOLLOW SETS
+
+***************************************************************************FIRSTS***************************************************************************
+program:						DECLARE, DEF, DRIVERDEF
+moduleDeclarations:				DECLARE, e
+moduleDeclaration:				DECLARE
+otherModules:					DEF, e
+driverModule:					DRIVERDEF
+module:							DEF
+ret:							RETURNS, e
+input_plist:					ID
+iplist:							COMMA, e
+output_plist:					ID
+oplist:							COMMA, e
+dataType:						INTEGER, REAL, BOOLEAN, ARRAY
+dynamic_range:					NUM, ID
+type:							INTEGER, REAL, BOOLEAN
+moduleDef:						START
+statements:						GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, e
+statement:						GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE
+ioStmt:							GET_VALUE, PRINT
+print:							ID, NUM, RNUM, TRUE, FALSE
+var:							ID, NUM, RNUM
+whichId:						SQBO, e
+simpleStmt:						ID, SQBO, USE
+assignmentStmt:					ID
+whichStmt:						ASSIGNOP, SQBO
+lvalueIDStmt:					ASSIGNOP
+lvalueARRStmt:					SQBO
+index:							NUM, ID
+moduleReuseStmt:				SQBO, USE
+optional:						SQBO, e
+idList:							ID
+idLists:						COMMA, e
+expression_new:					PLUS, MINUS, BO, ID, NUM, RNUM, TRUE, FALSE
+U:								MINUS, PLUS
+U':								BO, ID, NUM, RNUM
+arithmeticOrBooleanExpression:	BO, ID, NUM, RNUM, TRUE, FALSE
+followingBool:					AND, OR
+boolTerm:						BO, ID, NUM, RNUM, TRUE, FALSE
+boolean:						LT, LE, GT, GE, EQ, NE
+arithmeticExpr:					BO, ID, NUM, RNUM
+followingArithExp:				PLUS, MINUS, e
+term:							BO, ID, NUM, RNUM
+followingTerm:					MUL, DIV, e
+factor:							BO, ID, NUM, RNUM
+op1:							PLUS, MINUS
+op2:							MUL, DIV
+logicalOp:						AND, OR
+relationalOp:					LT, LE, GT, GE, EQ, NE
+declareStmt:					DECLARE
+condionalStmt:					SWITCH
+caseStmts:						CASE
+caseStmt:						CASE, e
+value:							NUM, TRUE, FALSE
+default:						DEFAULT, e
+iterativeStmt:					FOR, WHILE
+range:							NUM
+boolConst:						TRUE, FALSE
+
+
+***************************************************************************FOLLOWS***************************************************************************
+program:						$
+moduleDeclarations:				DEF, DRIVERDEF
+moduleDeclaration:				DECLARE, DEF, DRIVERDEF
+otherModules:					DRIVERDEF, $
+driverModule:					DEF, $
+module:							DEF, DRIVERDEF, $
+ret:							START
+input_plist:					SQBC
+iplist:							SQBC
+output_plist:					SQBC
+oplist:							SQBC
+dataType:						COMMA, SQBC, SEMICOL
+dynamic_range:					SQBC
+type:							COMMA, SQBC, SEMICOL
+moduleDef:						DEF, DRIVERDEF, $
+statements:						END, BREAK
+statement:						GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+ioStmt:							GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+print:							BC
+var:							BC, SEMCOL, MUL, DIV, PLUS, MINUS, LT, LE, GT, GE, EQ, NE, AND, OR
+whichId:						BC, SEMCOL, MUL, DIV, PLUS, MINUS, LT, LE, GT, GE, EQ, NE, AND, OR
+simpleStmt:						GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+assignmentStmt:					GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+whichStmt:						GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+lvalueIDStmt:					GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+lvalueARRStmt:					GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+index:							RANGEOP, SQBC
+moduleReuseStmt:				GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+optional:						USE
+idList:							GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, SQBC, COLON, BREAK
+idLists:						GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, SQBC, COLON, BREAK
+expression_new:					SEMICOL
+U:								SEMICOL
+U':								SEMICOL
+arithmeticOrBooleanExpression:	SEMICOL, BC
+followingBool:					SEMCOL, BC
+boolTerm:						AND, OR, SEMCOL, BC
+boolean:						AND, OR, SEMCOL, BC
+arithmeticExpr:					BC, LT, LE, GT, GE, EQ, NE, AND, OR, SEMCOL
+followingArithExp:				BC, LT, LE, GT, GE, EQ, NE, AND, OR, SEMCOL
+term:							PLUS, MINUS, BC, LT, LE, GT, GE, EQ, NE, AND, OR, SEMCOL
+followingTerm:					PLUS, MINUS, BC, LT, LE, GT, GE, EQ, NE, AND, OR, SEMICOL
+factor:							MUL, DIV, PLUS, MINUS, BC, LT, LE, GT, GE, EQ, NE, AND, OR, SEMICOL
+op1:							BO, ID, NUM, RNUM
+op2:							BO, ID, NUM, RNUM
+logicalOp:						BO, ID, NUM, RNUM, TRUE, FALSE
+relationalOp:					BO, ID, NUM, RNUM
+declareStmt:					GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+condionalStmt:					GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+caseStmts:						DEFAULT, END
+caseStmt:						DEFAULT, END
+value:							COLON
+default:						END
+iterativeStmt:					GET_VALUE, PRINT, ID, SQBO, USE, DECLARE, SWITCH, FOR, WHILE, END, BREAK
+range:							BC
+boolConst:						BC, AND, OR, SEMCOL, COLON

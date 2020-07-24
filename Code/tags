@@ -1,0 +1,415 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/e0a976d7/
+Alpha1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Alpha2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+BLUE	lexerDef.h	/^#define BLUE /;"	d
+BracC	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+BracO	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+C1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+C2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+C3	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+C4	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+CYAN	lexerDef.h	/^#define CYAN /;"	d
+CodeGen	assembler.c	/^void CodeGen(ast_node* root,inherited f, st_node* st_root)$/;"	f	typeref:typename:void
+CodeGenStart	assembler.c	/^void CodeGenStart(ast_tree* tree, st_node* root, char* file)$/;"	f	typeref:typename:void
+Col1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Col2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Col3	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Com	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Com1	lexerDef.h	/^enum printstate{Initial, Com1, Com2, Com3} PrintState;$/;"	e	enum:printstate
+Com2	lexerDef.h	/^enum printstate{Initial, Com1, Com2, Com3} PrintState;$/;"	e	enum:printstate
+Com3	lexerDef.h	/^enum printstate{Initial, Com1, Com2, Com3} PrintState;$/;"	e	enum:printstate
+ComputeFirstAndFollowSets	parser.c	/^FirstAndFollow ComputeFirstAndFollowSets(grammar G, FirstAndFollow  F,int it)$/;"	f	typeref:typename:FirstAndFollow
+CountAST	ast.c	/^void CountAST(ast_node *root)$/;"	f	typeref:typename:void
+CountParseTree	ast.c	/^void CountParseTree(node *root)$/;"	f	typeref:typename:void
+DFA_state	driver.c	/^int DFA_state;$/;"	v	typeref:typename:int
+Divide	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+End2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Equal1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Equal2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Error	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+F	parserDef.h	/^FirstAndFollow F;$/;"	v	typeref:typename:FirstAndFollow
+FILEBYTES	lexerDef.h	/^#define FILEBYTES /;"	d
+First	parserDef.h	/^typedef struct First{$/;"	s
+First	parserDef.h	/^}First;$/;"	t	typeref:struct:First
+FirstAndFollow	parserDef.h	/^typedef struct FirstAndFollow{$/;"	s
+FirstAndFollow	parserDef.h	/^}FirstAndFollow;$/;"	t	typeref:struct:FirstAndFollow
+Follow	parserDef.h	/^typedef struct Follow{$/;"	s
+Follow	parserDef.h	/^}Follow;$/;"	t	typeref:struct:Follow
+GREEN	lexerDef.h	/^#define GREEN /;"	d
+Grt1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Grt2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Grt3	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Grt4	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Grt5	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Grt6	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Initial	lexerDef.h	/^enum printstate{Initial, Com1, Com2, Com3} PrintState;$/;"	e	enum:printstate
+LHS	parserDef.h	/^typedef struct LHS{$/;"	s
+LHS	parserDef.h	/^}LHS;$/;"	t	typeref:struct:LHS
+LINE	lexerDef.h	/^#define LINE /;"	d
+Les1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Les2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Les3	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Les4	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Les5	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Les6	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+LexErr	driver.c	/^int LexErr = 0;$/;"	v	typeref:typename:int
+Lexeme	lexerDef.h	/^}Lexeme;$/;"	t	typeref:struct:lexeme
+Line_No	lexerDef.h	/^	int Line_No;$/;"	m	struct:lexeme	typeref:typename:int
+Line_No	parserDef.h	/^	int Line_No;$/;"	m	struct:type	typeref:typename:int
+MAGENTA	lexerDef.h	/^#define MAGENTA /;"	d
+Minus	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Mul	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+NotEqual1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+NotEqual2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Num1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Num2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Plus	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+PrintAST	ast.c	/^void PrintAST(ast_node *root)$/;"	f	typeref:typename:void
+PrintState	lexerDef.h	/^enum printstate{Initial, Com1, Com2, Com3} PrintState;$/;"	v	typeref:enum:printstate
+PrintTemplateEnd	assembler.c	/^void PrintTemplateEnd()$/;"	f	typeref:typename:void
+PrintTemplateStart	assembler.c	/^void PrintTemplateStart()$/;"	f	typeref:typename:void
+Printst	driver.c	/^int Printst;$/;"	v	typeref:typename:int
+RED	lexerDef.h	/^#define RED /;"	d
+RESET	lexerDef.h	/^#define RESET /;"	d
+RHS	parserDef.h	/^struct RHS{$/;"	s
+RHS	parserDef.h	/^typedef struct RHS RHS;$/;"	t	typeref:struct:RHS
+RNum1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+RNum2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+RNum3	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+RNum4	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+RNum5	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+RNum6	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+RNum7	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+RNum8	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+ROP	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Ran1	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Ran2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+RangRet	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+SIZEOF_AST_HASH_TABLE	astDef.h	/^#define SIZEOF_AST_HASH_TABLE /;"	d
+SIZEOF_ST_HASH_TABLE	symbolDef.h	/^#define SIZEOF_ST_HASH_TABLE /;"	d
+SemErr	driver.c	/^int SemErr = 0;$/;"	v	typeref:typename:int
+Semantic_Check	symbolTable.c	/^void Semantic_Check(ast_node* p,st_node* st_current, flag* f)$/;"	f	typeref:typename:void
+Semcol	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+SqbC	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+SqbO	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Start	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+Start2	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	e	enum:state
+States	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	v	typeref:enum:state
+SynxErr	driver.c	/^int SynxErr = 0;$/;"	v	typeref:typename:int
+T	parserDef.h	/^table T;$/;"	v	typeref:typename:table
+TOKEN	lexerDef.h	/^	char* TOKEN;$/;"	m	struct:lexeme	typeref:typename:char *
+Token_Print	lexer.c	/^void Token_Print(FILE* fp)$/;"	f	typeref:typename:void
+Toktime	lexer.c	/^void Toktime(FILE* fp)$/;"	f	typeref:typename:void
+Type_Checking	symbolTable.c	/^void Type_Checking(ast_tree* p)$/;"	f	typeref:typename:void
+Value	lexerDef.h	/^	value Value;$/;"	m	struct:lexeme	typeref:typename:value
+YELLOW	lexerDef.h	/^#define YELLOW /;"	d
+_ASSEMBLERDEF_H	assemblerDef.h	/^#define _ASSEMBLERDEF_H$/;"	d
+_ASSEMBLER_H	assembler.h	/^#define _ASSEMBLER_H$/;"	d
+_ASTDEF_H	astDef.h	/^#define _ASTDEF_H$/;"	d
+_AST_H	ast.h	/^#define _AST_H$/;"	d
+_LEXERDEF_H	lexerDef.h	/^#define _LEXERDEF_H$/;"	d
+_LEXER_H	lexer.h	/^#define _LEXER_H$/;"	d
+_PARSERDEF_H	parserDef.h	/^#define _PARSERDEF_H$/;"	d
+_PARSER_H	parser.h	/^#define _PARSER_H$/;"	d
+_SYMBOLDEF_H	symbolDef.h	/^#define _SYMBOLDEF_H$/;"	d
+_SYMBOLTABLE_H	symbolTable.h	/^#define _SYMBOLTABLE_H$/;"	d
+add_hash_table_ast	ast.c	/^static inline void* add_hash_table_ast(char * p,struct ast_h_table* ht)$/;"	f	typeref:typename:void *	file:
+add_hash_table_st	symbolTable.c	/^static inline int add_hash_table_st(symbol * sym,struct st_hashtable* sht)$/;"	f	typeref:typename:int	file:
+addr	parserDef.h	/^	ast_node* addr;$/;"	m	struct:node	typeref:typename:ast_node *
+all	Makefile	/^all:	lexer.o parser.o driver.o ast.o symbolTable.o assembler.o$/;"	t
+already_present	parser.c	/^bool already_present(char** arr, char* str,int size)$/;"	f	typeref:typename:bool
+arr	astDef.h	/^	struct ast_keywords* arr[SIZEOF_AST_HASH_TABLE];$/;"	m	struct:ast_h_table	typeref:struct:ast_keywords * []
+arr	lexerDef.h	/^	struct keywords* arr[table_size];$/;"	m	struct:h_table	typeref:struct:keywords * []
+arr	parserDef.h	/^	bool arr;$/;"	m	struct:symbol	typeref:typename:bool
+arr	parserDef.h	/^	bool arr;$/;"	m	struct:type	typeref:typename:bool
+arr	symbolDef.h	/^	struct symbol* arr[SIZEOF_ST_HASH_TABLE];$/;"	m	struct:st_hashtable	typeref:struct:symbol * []
+arr_check	symbolTable.c	/^int arr_check(symbol* s1 , symbol* s2)$/;"	f	typeref:typename:int
+arr_end	parserDef.h	/^	char* arr_end;$/;"	m	struct:symbol	typeref:typename:char *
+arr_end_sym	parserDef.h	/^	symbol* arr_end_sym;$/;"	m	struct:symbol	typeref:typename:symbol *
+arr_start	parserDef.h	/^	char* arr_start;$/;"	m	struct:symbol	typeref:typename:char *
+arr_start_sym	parserDef.h	/^	symbol* arr_start_sym;$/;"	m	struct:symbol	typeref:typename:symbol *
+asfile	parserDef.h	/^FILE* asfile;$/;"	v	typeref:typename:FILE *
+asop	driver.c	/^int asop = 0;$/;"	v	typeref:typename:int
+assembler.o	Makefile	/^assembler.o: assembler.c$/;"	t
+ast.o	Makefile	/^ast.o: ast.c$/;"	t
+ast_creation	ast.c	/^ast_tree* ast_creation(parseTree *p)$/;"	f	typeref:typename:ast_tree *
+ast_find_token	ast.c	/^int ast_find_token(char* pattern)$/;"	f	typeref:typename:int
+ast_h_table	astDef.h	/^struct ast_h_table{$/;"	s
+ast_ht	astDef.h	/^struct ast_h_table* ast_ht;$/;"	v	typeref:struct:ast_h_table *
+ast_increment	ast.c	/^void ast_increment()$/;"	f	typeref:typename:void
+ast_initialization	ast.c	/^struct ast_h_table* ast_initialization()$/;"	f	typeref:struct:ast_h_table *
+ast_isEmpty	ast.c	/^int ast_isEmpty()$/;"	f	typeref:typename:int
+ast_keywords	astDef.h	/^struct ast_keywords{$/;"	s
+ast_node	parserDef.h	/^struct ast_node$/;"	s
+ast_node	parserDef.h	/^typedef struct ast_node ast_node;$/;"	t	typeref:struct:ast_node
+ast_peek	ast.c	/^ast_stack_node* ast_peek()$/;"	f	typeref:typename:ast_stack_node *
+ast_pop	ast.c	/^void ast_pop()$/;"	f	typeref:typename:void
+ast_push	ast.c	/^void ast_push(node* ptr, int ind)$/;"	f	typeref:typename:void
+ast_stack_node	astDef.h	/^}ast_stack_node;$/;"	t	typeref:struct:stack
+ast_top	ast.h	/^ast_stack_node* ast_top;$/;"	v	typeref:typename:ast_stack_node *
+ast_tree	astDef.h	/^typedef struct ast_tree{	$/;"	s
+ast_tree	astDef.h	/^}ast_tree;$/;"	t	typeref:struct:ast_tree
+asttreee	astDef.h	/^ast_tree* asttreee;$/;"	v	typeref:typename:ast_tree *
+boolarrprint	assemblerDef.h	/^int boolarrprint;$/;"	v	typeref:typename:int
+boolelemprint	assemblerDef.h	/^int boolelemprint;$/;"	v	typeref:typename:int
+boolprint	assemblerDef.h	/^int boolprint;$/;"	v	typeref:typename:int
+buf_count	driver.c	/^int buf_count;$/;"	v	typeref:typename:int
+buffer1	lexerDef.h	/^char* buffer1;$/;"	v	typeref:typename:char *
+buffer2	lexerDef.h	/^char* buffer2;$/;"	v	typeref:typename:char *
+c	parserDef.h	/^    int c;$/;"	m	struct:table	typeref:typename:int
+calculate_hash	parser.c	/^int calculate_hash(char* s,int factor)$/;"	f	typeref:typename:int
+check	parserDef.h	/^	int check; $/;"	m	struct:stack_node	typeref:typename:int
+check	parserDef.h	/^	int check;$/;"	m	struct:node	typeref:typename:int
+check	parserDef.h	/^    int check;$/;"	m	struct:RHS	typeref:typename:int
+checkntort	parser.c	/^int checkntort(char * ch, char ** strs,grammar G)$/;"	f	typeref:typename:int
+child	parserDef.h	/^	ast_node* child;$/;"	m	struct:ast_node	typeref:typename:ast_node *
+child	symbolDef.h	/^	st_node* child;$/;"	m	struct:st_node	typeref:typename:st_node *
+children	parserDef.h	/^	node** children;$/;"	m	struct:node	typeref:typename:node **
+childsize	parserDef.h	/^	int childsize;$/;"	m	struct:ast_node	typeref:typename:int
+clean	Makefile	/^clean:$/;"	t
+cond_offset	symbolDef.h	/^	int cond_offset;$/;"	m	struct:inherited	typeref:typename:int
+createParseTable	parser.c	/^table createParseTable(FirstAndFollow F, table T)$/;"	f	typeref:typename:table
+create_st	symbolTable.c	/^st_node* create_st(ast_tree* p)$/;"	f	typeref:typename:st_node *
+create_sym_tree	symbolTable.c	/^void create_sym_tree(ast_node* p,st_node* st_current, flag* f)$/;"	f	typeref:typename:void
+d	parserDef.h	/^    int d;$/;"	m	struct:Follow	typeref:typename:int
+dec	symbolDef.h	/^	bool dec;$/;"	m	struct:flag	typeref:typename:bool
+dec_used	parserDef.h	/^	bool dec_used;$/;"	m	struct:symbol	typeref:typename:bool
+declare	parserDef.h	/^	bool declare;$/;"	m	struct:symbol	typeref:typename:bool
+def_line_no	parserDef.h	/^	int def_line_no;$/;"	m	struct:symbol	typeref:typename:int
+definition	parserDef.h	/^	bool definition;$/;"	m	struct:symbol	typeref:typename:bool
+display	parser.c	/^void display()  $/;"	f	typeref:typename:void
+done	parserDef.h	/^	int done;$/;"	m	struct:node	typeref:typename:int
+down	astDef.h	/^	struct stack* down;$/;"	m	struct:stack	typeref:struct:stack *
+driver.o	Makefile	/^driver.o: driver.c$/;"	t
+driver_test	symbolDef.h	/^bool driver_test;$/;"	v	typeref:typename:bool
+e	parserDef.h	/^    int e;$/;"	m	struct:First	typeref:typename:int
+e	parserDef.h	/^    int e;$/;"	m	struct:LHS	typeref:typename:int
+end_arr	parserDef.h	/^	int end_arr;$/;"	m	struct:symbol	typeref:typename:int
+end_arr	parserDef.h	/^	int end_arr;$/;"	m	struct:type	typeref:typename:int
+end_arr_dec	parserDef.h	/^	bool end_arr_dec;$/;"	m	struct:symbol	typeref:typename:bool
+end_scope	symbolDef.h	/^	int end_scope;$/;"	m	struct:st_node	typeref:typename:int
+factor_nt	driver.c	/^int factor_nt;$/;"	v	typeref:typename:int
+factor_t	driver.c	/^int factor_t;$/;"	v	typeref:typename:int
+fasm	assembler.c	/^FILE *fasm;$/;"	v	typeref:typename:FILE *
+fill_hash_nt_table	parser.c	/^void fill_hash_nt_table()$/;"	f	typeref:typename:void
+fill_hash_t_table	parser.c	/^void fill_hash_t_table()$/;"	f	typeref:typename:void
+fill_input_output	symbolTable.c	/^void fill_input_output(st_node* st_current , symbol* temp, int check)$/;"	f	typeref:typename:void
+fill_ret_vars	assembler.c	/^void fill_ret_vars(ast_node* input_list, ast_node* insert_list)$/;"	f	typeref:typename:void
+fill_terminal	parser.c	/^int fill_terminal(char* s,int size)$/;"	f	typeref:typename:int
+find_firsts	parser.c	/^void find_firsts(FirstAndFollow F, int i,grammar G, int it)$/;"	f	typeref:typename:void
+find_follow	parser.c	/^void find_follow(FirstAndFollow F, int i, RHS* start, LHS l,grammar G)$/;"	f	typeref:typename:void
+find_nt	parser.c	/^void find_nt(grammar G)$/;"	f	typeref:typename:void
+find_token	lexer.c	/^char* find_token(char* pattern)$/;"	f	typeref:typename:char *
+first	parserDef.h	/^    First* first;$/;"	m	struct:FirstAndFollow	typeref:typename:First *
+first_list	parserDef.h	/^    char** first_list;$/;"	m	struct:First	typeref:typename:char **
+first_occurence	parser.c	/^int first_occurence(char* s,grammar G)$/;"	f	typeref:typename:int
+flag	symbolDef.h	/^struct flag$/;"	s
+flag	symbolDef.h	/^typedef struct flag flag;$/;"	t	typeref:struct:flag
+floatnum	assemblerDef.h	/^int floatnum;$/;"	v	typeref:typename:int
+fo	parserDef.h	/^FirstAndFollow * fo;$/;"	v	typeref:typename:FirstAndFollow *
+follow	parserDef.h	/^    Follow* follow;$/;"	m	struct:FirstAndFollow	typeref:typename:Follow *
+follow_list	parserDef.h	/^    char** follow_list;$/;"	m	struct:Follow	typeref:typename:char **
+for_label	assemblerDef.h	/^int for_label;$/;"	v	typeref:typename:int
+for_lookahead	symbolTable.c	/^int for_lookahead(ast_node* current , char* forid)$/;"	f	typeref:typename:int
+forvar	parserDef.h	/^	bool forvar;$/;"	m	struct:symbol	typeref:typename:bool
+fpt	parserDef.h	/^FILE* fpt;$/;"	v	typeref:typename:FILE *
+free_ptr	lexerDef.h	/^char* free_ptr[10];$/;"	v	typeref:typename:char * [10]
+freetree	parser.c	/^void freetree(node *n)$/;"	f	typeref:typename:void
+func	parserDef.h	/^	bool func;$/;"	m	struct:symbol	typeref:typename:bool
+func_name	symbolDef.h	/^	char* func_name;$/;"	m	struct:st_node	typeref:typename:char *
+func_space	assemblerDef.h	/^int func_space;$/;"	v	typeref:typename:int
+getNextToken	lexer.c	/^Lexeme* getNextToken(char** ptr)$/;"	f	typeref:typename:Lexeme *
+getStream	lexer.c	/^char* getStream(FILE *fp)$/;"	f	typeref:typename:char *
+get_value_double	lexer.c	/^static inline double get_value_double(char* input)$/;"	f	typeref:typename:double	file:
+getbool	assemblerDef.h	/^int getbool;$/;"	v	typeref:typename:int
+getboolarr	assemblerDef.h	/^int getboolarr;$/;"	v	typeref:typename:int
+getintarr	assemblerDef.h	/^int getintarr;$/;"	v	typeref:typename:int
+getrealarr	assemblerDef.h	/^int getrealarr;$/;"	v	typeref:typename:int
+gram	parserDef.h	/^grammar gram;$/;"	v	typeref:typename:grammar
+grammar	parserDef.h	/^typedef struct grammar{$/;"	s
+grammar	parserDef.h	/^}grammar;$/;"	t	typeref:struct:grammar
+h_table	lexerDef.h	/^struct h_table{$/;"	s
+hash_nt	parserDef.h	/^struct hash_nt$/;"	s
+hash_nt	parserDef.h	/^typedef struct hash_nt hash_nt;$/;"	t	typeref:struct:hash_nt
+hash_nt_ptr	parserDef.h	/^hash_nt** hash_nt_ptr;$/;"	v	typeref:typename:hash_nt **
+hash_t	parserDef.h	/^struct hash_t$/;"	s
+hash_t	parserDef.h	/^typedef struct hash_t hash_t;$/;"	t	typeref:struct:hash_t
+hash_t_ptr	parserDef.h	/^hash_t** hash_t_ptr;$/;"	v	typeref:typename:hash_t **
+hash_table	lexer.c	/^static inline void* hash_table(char* p, char* t, struct h_table* ht)$/;"	f	typeref:typename:void *	file:
+head	parserDef.h	/^    LHS* ** head; $/;"	m	struct:table	typeref:typename:LHS ***
+head	parserDef.h	/^    RHS* head;$/;"	m	struct:LHS	typeref:typename:RHS *
+head	symbolDef.h	/^	st_hashtable* head;$/;"	m	struct:st_node	typeref:typename:st_hashtable *
+ht	lexerDef.h	/^struct h_table* ht;$/;"	v	typeref:struct:h_table *
+index	astDef.h	/^	int index;$/;"	m	struct:stack	typeref:typename:int
+index	parserDef.h	/^	int index;$/;"	m	struct:hash_nt	typeref:typename:int
+index	parserDef.h	/^	int index;$/;"	m	struct:hash_t	typeref:typename:int
+inherited	symbolDef.h	/^struct inherited$/;"	s
+inherited	symbolDef.h	/^typedef struct inherited inherited;$/;"	t	typeref:struct:inherited
+initializeLables	assembler.c	/^void initializeLables()$/;"	f	typeref:typename:void
+initialize_hash_table	lexer.c	/^struct h_table* initialize_hash_table()$/;"	f	typeref:struct:h_table *
+input	parserDef.h	/^	bool input;$/;"	m	struct:symbol	typeref:typename:bool
+input_head	symbolDef.h	/^	symbol* input_head;$/;"	m	struct:st_node	typeref:typename:symbol *
+insert_child	symbolTable.c	/^st_node* insert_child(st_node* st_current,int scope)$/;"	f	typeref:typename:st_node *
+insert_into_hashtable	symbolTable.c	/^void insert_into_hashtable(symbol* sym_list, st_node* st_current)$/;"	f	typeref:typename:void
+intarrprint	assemblerDef.h	/^int intarrprint;$/;"	v	typeref:typename:int
+intialise_inp_vars	assembler.c	/^void intialise_inp_vars(ast_node* input_list, ast_node* insert_list)$/;"	f	typeref:typename:void
+ip_plist	symbolDef.h	/^	bool ip_plist;$/;"	m	struct:flag	typeref:typename:bool
+isEmpty	parser.c	/^int isEmpty() $/;"	f	typeref:typename:int
+is_same_type	symbolTable.c	/^bool is_same_type(type* ty1, type* ty2)$/;"	f	typeref:typename:bool
+keywords	lexerDef.h	/^struct keywords{$/;"	s
+l	parserDef.h	/^		Lexeme* l;$/;"	m	union:ast_node::name	typeref:typename:Lexeme *
+last_occurence	parser.c	/^int last_occurence(char* s,grammar G)$/;"	f	typeref:typename:int
+level	symbolDef.h	/^	int level;$/;"	m	struct:st_node	typeref:typename:int
+lex	parserDef.h	/^	Lexeme* lex;$/;"	m	struct:node	typeref:typename:Lexeme *
+lexeme	lexerDef.h	/^	char* lexeme;$/;"	m	struct:lexeme	typeref:typename:char *
+lexeme	lexerDef.h	/^typedef struct lexeme {$/;"	s
+lexer.o	Makefile	/^lexer.o: lexer.c$/;"	t
+line_count	driver.c	/^int line_count;$/;"	v	typeref:typename:int
+link	parserDef.h	/^    	struct stack_node* link; $/;"	m	struct:stack_node	typeref:struct:stack_node *
+logicalop_label	assemblerDef.h	/^int logicalop_label;$/;"	v	typeref:typename:int
+lookup_function_main_scope_table	symbolTable.c	/^st_node* lookup_function_main_scope_table(char* ID , st_node* current, bool ipop)$/;"	f	typeref:typename:st_node *
+main	driver.c	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+make_leaf	ast.c	/^ast_node* make_leaf(Lexeme* lex)$/;"	f	typeref:typename:ast_node *
+make_node	ast.c	/^ast_node* make_node(int argc, ast_node** argv, char* name)$/;"	f	typeref:typename:ast_node *
+mark	parserDef.h	/^	bool mark;$/;"	m	struct:symbol	typeref:typename:bool
+maxoffset	symbolDef.h	/^	int maxoffset;$/;"	m	struct:st_node	typeref:typename:int
+menuOptions	driver.c	/^void menuOptions(int option, FILE* sourceFile, char* filename, char* asmfile)$/;"	f	typeref:typename:void
+mod	symbolDef.h	/^	bool mod;\/\/ whether the last insertion was input_plist then dont change the scope$/;"	m	struct:flag	typeref:typename:bool
+mod_dec	symbolDef.h	/^	bool mod_dec;$/;"	m	struct:flag	typeref:typename:bool
+module_ptr	symbolDef.h	/^	ast_node* module_ptr;$/;"	m	struct:st_node	typeref:typename:ast_node *
+name	parserDef.h	/^	union name{$/;"	u	struct:ast_node
+name	parserDef.h	/^	}name;$/;"	m	struct:ast_node	typeref:union:ast_node::name
+next	astDef.h	/^	struct ast_keywords* next;$/;"	m	struct:ast_keywords	typeref:struct:ast_keywords *
+next	lexerDef.h	/^	struct keywords* next;$/;"	m	struct:keywords	typeref:struct:keywords *
+next	parserDef.h	/^	ast_node* next;$/;"	m	struct:ast_node	typeref:typename:ast_node *
+next	parserDef.h	/^	hash_nt* next;$/;"	m	struct:hash_nt	typeref:typename:hash_nt *
+next	parserDef.h	/^	hash_t* next;$/;"	m	struct:hash_t	typeref:typename:hash_t *
+next	parserDef.h	/^	symbol* next;$/;"	m	struct:symbol	typeref:typename:symbol *
+next	parserDef.h	/^    RHS* next;$/;"	m	struct:RHS	typeref:typename:RHS *
+next	symbolDef.h	/^	st_node* next;	$/;"	m	struct:st_node	typeref:typename:st_node *
+next_input_output	parserDef.h	/^	symbol* next_input_output;\/\/linked list of input\/output$/;"	m	struct:symbol	typeref:typename:symbol *
+no_of_firsts	parserDef.h	/^    int no_of_firsts;$/;"	m	struct:FirstAndFollow	typeref:typename:int
+no_of_follows	parserDef.h	/^    int no_of_follows;$/;"	m	struct:FirstAndFollow	typeref:typename:int
+no_of_nt	parserDef.h	/^    int no_of_nt;$/;"	m	struct:grammar	typeref:typename:int
+no_of_terminals	driver.c	/^int no_of_terminals;$/;"	v	typeref:typename:int
+node	parserDef.h	/^struct node$/;"	s
+node	parserDef.h	/^typedef struct node node;$/;"	t	typeref:struct:node
+node_type	parserDef.h	/^	char* node_type;$/;"	m	struct:type	typeref:typename:char *
+nonterminals	parserDef.h	/^char ** nonterminals;$/;"	v	typeref:typename:char **
+nt_name	parserDef.h	/^		char nt_name[30];$/;"	m	union:ast_node::name	typeref:typename:char[30]
+numAST	driver.c	/^int numAST = 0;$/;"	v	typeref:typename:int
+numParseTree	driver.c	/^int numParseTree = 0;$/;"	v	typeref:typename:int
+numofchild	parserDef.h	/^	int numofchild;$/;"	m	struct:node	typeref:typename:int
+offset	parserDef.h	/^	int offset;$/;"	m	struct:symbol	typeref:typename:int
+offset	symbolDef.h	/^int offset;$/;"	v	typeref:typename:int
+op3	driver.c	/^int op3 = 0;$/;"	v	typeref:typename:int
+op_plist	symbolDef.h	/^	bool op_plist;$/;"	m	struct:flag	typeref:typename:bool
+output	parserDef.h	/^	bool output;$/;"	m	struct:symbol	typeref:typename:bool
+output_head	symbolDef.h	/^	symbol* output_head;$/;"	m	struct:st_node	typeref:typename:symbol *
+p	parserDef.h	/^parseTree* p;$/;"	v	typeref:typename:parseTree *
+parent	parserDef.h	/^	ast_node* parent;$/;"	m	struct:ast_node	typeref:typename:ast_node *
+parent	parserDef.h	/^	node* parent;$/;"	m	struct:node	typeref:typename:node *
+parent	symbolDef.h	/^	st_node* parent;$/;"	m	struct:st_node	typeref:typename:st_node *
+parseInputSourceCode	parser.c	/^void parseInputSourceCode(FILE * fp1, table T)$/;"	f	typeref:typename:void
+parseTree	parserDef.h	/^typedef struct parseTree{$/;"	s
+parseTree	parserDef.h	/^}parseTree;$/;"	t	typeref:struct:parseTree
+parse_tree	parser.c	/^node* parse_tree(LHS* lhs , node* n, Lexeme* lex)$/;"	f	typeref:typename:node *
+parser	parser.c	/^void parser()$/;"	f	typeref:typename:void
+parser.o	Makefile	/^parser.o: parser.c$/;"	t
+pattern	astDef.h	/^	char* pattern;$/;"	m	struct:ast_keywords	typeref:typename:char *
+pattern	lexerDef.h	/^	char* pattern;$/;"	m	struct:keywords	typeref:typename:char *
+peek	parser.c	/^stack_node* peek() $/;"	f	typeref:typename:stack_node *
+pnode	astDef.h	/^	node* pnode;$/;"	m	struct:stack	typeref:typename:node *
+pop	parser.c	/^void pop() $/;"	f	typeref:typename:void
+populate_nt	parser.c	/^void populate_nt(grammar *G)$/;"	f	typeref:typename:void
+prev	parserDef.h	/^	ast_node* prev;$/;"	m	struct:ast_node	typeref:typename:ast_node *
+printArray	symbolTable.c	/^void* printArray(st_node* root)$/;"	f	typeref:typename:void *
+printExitMsg	parser.c	/^void printExitMsg()$/;"	f	typeref:typename:void
+printParseTree	parser.c	/^void printParseTree(node* n)$/;"	f	typeref:typename:void
+printSymbolTable	symbolTable.c	/^void* printSymbolTable(st_node* root)$/;"	f	typeref:typename:void *
+print_First	parser.c	/^void print_First()$/;"	f	typeref:typename:void
+print_Follow	parser.c	/^void print_Follow()$/;"	f	typeref:typename:void
+print_activation_record	symbolTable.c	/^void print_activation_record(st_node* current)$/;"	f	typeref:typename:void
+print_arr	symbolTable.c	/^void * print_arr(st_node* current)$/;"	f	typeref:typename:void *
+print_st	symbolTable.c	/^void * print_st(st_node* current)$/;"	f	typeref:typename:void *
+printstate	lexerDef.h	/^enum printstate{Initial, Com1, Com2, Com3} PrintState;$/;"	g
+ptr	parserDef.h	/^    	node* ptr;$/;"	m	struct:stack_node	typeref:typename:node *
+push	parser.c	/^void push(char* value , int check, node* ptr) $/;"	f	typeref:typename:void
+r	parserDef.h	/^    int r;$/;"	m	struct:table	typeref:typename:int
+rank	parser.c	/^int rank(char* nt)$/;"	f	typeref:typename:int
+real_val	lexerDef.h	/^	double real_val;$/;"	m	union:value	typeref:typename:double
+realarrprint	assemblerDef.h	/^int realarrprint;$/;"	v	typeref:typename:int
+relationalop_label	assemblerDef.h	/^int relationalop_label;$/;"	v	typeref:typename:int
+removeComments	lexer.c	/^void removeComments(FILE *testCaseFile)$/;"	f	typeref:typename:void
+root	astDef.h	/^	ast_node* root;$/;"	m	struct:ast_tree	typeref:typename:ast_node *
+root	parserDef.h	/^	node* root;$/;"	m	struct:parseTree	typeref:typename:node *
+run	Makefile	/^run:$/;"	t
+scope	symbolDef.h	/^	int scope;$/;"	m	struct:st_node	typeref:typename:int
+scope	symbolDef.h	/^int scope;$/;"	v	typeref:typename:int
+size	astDef.h	/^	int size;$/;"	m	struct:ast_h_table	typeref:typename:int
+size	lexerDef.h	/^	int size;$/;"	m	struct:h_table	typeref:typename:int
+size	parserDef.h	/^	int size;$/;"	m	struct:symbol	typeref:typename:int
+size	parserDef.h	/^    int size;$/;"	m	struct:grammar	typeref:typename:int
+size	symbolDef.h	/^	int size;$/;"	m	struct:st_hashtable	typeref:typename:int
+size_first_list	parserDef.h	/^    int size_first_list;$/;"	m	struct:First	typeref:typename:int
+size_follow_list	parserDef.h	/^    int size_follow_list;$/;"	m	struct:Follow	typeref:typename:int
+sourceCode	lexerDef.h	/^FILE* sourceCode;$/;"	v	typeref:typename:FILE *
+st_find_token	symbolTable.c	/^symbol* st_find_token(char* sym, st_node* st_current)$/;"	f	typeref:typename:symbol *
+st_hashtable	symbolDef.h	/^typedef struct st_hashtable{$/;"	s
+st_hashtable	symbolDef.h	/^}st_hashtable;$/;"	t	typeref:struct:st_hashtable
+st_lookup	symbolTable.c	/^symbol* st_lookup(st_node* current , char* search)$/;"	f	typeref:typename:symbol *
+st_node	parserDef.h	/^typedef struct st_node st_node;$/;"	t	typeref:struct:st_node
+st_node	symbolDef.h	/^struct st_node$/;"	s
+stack	astDef.h	/^typedef struct stack$/;"	s
+stack_node	parserDef.h	/^typedef struct stack_node{ $/;"	s
+stack_node	parserDef.h	/^}stack_node; $/;"	t	typeref:struct:stack_node
+start	parserDef.h	/^    LHS* start;$/;"	m	struct:grammar	typeref:typename:LHS *
+start_arr	parserDef.h	/^	int start_arr;$/;"	m	struct:symbol	typeref:typename:int
+start_arr	parserDef.h	/^	int start_arr;$/;"	m	struct:type	typeref:typename:int
+start_arr_dec	parserDef.h	/^	bool start_arr_dec;$/;"	m	struct:symbol	typeref:typename:bool
+start_scope	parserDef.h	/^	int start_scope;\/\/start - line where the variable is declared; $/;"	m	struct:symbol	typeref:typename:int
+state	lexerDef.h	/^enum state{Error, Start, Alpha1, Alpha2, Num1, Num2, RNum1, RangRet, RNum2, RNum3, RNum4, RNum5,/;"	g
+switch_label	assemblerDef.h	/^int switch_label;$/;"	v	typeref:typename:int
+switch_label	symbolDef.h	/^	int switch_label;$/;"	m	struct:inherited	typeref:typename:int
+sym_list	symbolDef.h	/^symbol* sym_list;$/;"	v	typeref:typename:symbol *
+symbol	parserDef.h	/^	symbol* symbol;$/;"	m	struct:ast_node	typeref:typename:symbol *
+symbol	parserDef.h	/^struct symbol$/;"	s
+symbol	parserDef.h	/^typedef struct symbol symbol;$/;"	t	typeref:struct:symbol
+symbolTable.o	Makefile	/^symbolTable.o: symbolTable.c$/;"	t
+symboltable	parserDef.h	/^	st_node* symboltable;$/;"	m	struct:symbol	typeref:typename:st_node *
+symind	driver.c	/^int symind = 0;$/;"	v	typeref:typename:int
+table	parserDef.h	/^typedef struct table{$/;"	s
+table	parserDef.h	/^}table;$/;"	t	typeref:struct:table
+table_size	lexerDef.h	/^#define table_size /;"	d
+tag	parserDef.h	/^	int tag;$/;"	m	struct:ast_node	typeref:typename:int
+terminal_rank	parser.c	/^int terminal_rank(char* s)$/;"	f	typeref:typename:int
+terminals	parserDef.h	/^char** terminals;$/;"	v	typeref:typename:char **
+token	lexerDef.h	/^	char* token;$/;"	m	struct:keywords	typeref:typename:char *
+top	parserDef.h	/^stack_node* top;$/;"	v	typeref:typename:stack_node *
+track_func_scope	symbolTable.c	/^int track_func_scope = 0;									\/\/remembers the scope number of the current function being t/;"	v	typeref:typename:int
+ty	parserDef.h	/^	type* ty;$/;"	m	struct:ast_node	typeref:typename:type *
+type	parserDef.h	/^	char* type;$/;"	m	struct:symbol	typeref:typename:char *
+type	parserDef.h	/^typedef struct type$/;"	s
+type	parserDef.h	/^}type;$/;"	t	typeref:struct:type
+type_check	symbolTable.c	/^void type_check(ast_node* p)$/;"	f	typeref:typename:void
+use	parserDef.h	/^	bool use;\/\/change$/;"	m	struct:symbol	typeref:typename:bool
+val	lexerDef.h	/^	int val;$/;"	m	union:value	typeref:typename:int
+value	lexerDef.h	/^typedef union value{$/;"	u
+value	lexerDef.h	/^}value;$/;"	t	typeref:union:value
+value	parserDef.h	/^	char* value;$/;"	m	struct:hash_nt	typeref:typename:char *
+value	parserDef.h	/^	char* value;$/;"	m	struct:hash_t	typeref:typename:char *
+value	parserDef.h	/^	char* value;$/;"	m	struct:node	typeref:typename:char *
+value	parserDef.h	/^	char* value;$/;"	m	struct:stack_node	typeref:typename:char *
+value	parserDef.h	/^    char *value;$/;"	m	struct:RHS	typeref:typename:char *
+value	parserDef.h	/^    char* value;$/;"	m	struct:First	typeref:typename:char *
+value	parserDef.h	/^    char* value;$/;"	m	struct:Follow	typeref:typename:char *
+value	parserDef.h	/^    char* value;$/;"	m	struct:LHS	typeref:typename:char *
+var_name	parserDef.h	/^	char* var_name;$/;"	m	struct:symbol	typeref:typename:char *
+while_label	assemblerDef.h	/^int while_label;$/;"	v	typeref:typename:int

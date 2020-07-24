@@ -1,0 +1,138 @@
+declare module MergeSort;
+
+declare module min;
+
+<<module merge>>
+takes input[A: array[m..n] of integer, l:integer, m:integer, r:integer];
+{
+	declare i, j, k, n1, n2:integer;
+	n1 := m-l+1;
+	n2 := r-m;
+
+	declare L:array [0..n1] of integer;
+	declare R:array [0..n2] of integer;
+	i:=0;
+	while(i<n1)
+	{
+		declare ind: integer;
+		ind := l + i;
+		L[i] := A[ind];
+		i := i+1;
+	}
+	j:=0;
+	while(j<n2)
+	{
+		declare ind: integer;
+		ind := m + 1 + j;
+		R[j] := A[ind];
+		j := j+1;
+	}
+	i := 0;
+	j := 0;
+	k := l;
+	while(i<n1 AND j<n2)
+	{
+		declare great:boolean;
+		great := L[i] <= R[j];
+		switch(great)
+		{
+			case true:
+				A[k] := L[i];
+				i := i+ 1;
+				break;
+			case false:
+				A[k] := R[j];
+				j := j+1;
+				break;
+		}
+		k := k+1;
+	}
+	while(i<n1)
+	{
+		A[k] := L[i];
+		i := i+1;
+		k := k + 1;
+	}
+	while(j<n2)
+	{
+		A[k] := R[j];
+		j := j+1;
+		k := k + 1;
+	}
+}
+
+
+
+<<module printArray>>
+takes input[A:array[m..n] of integer];
+{
+	print(A);
+}
+
+<<<driver program>>>
+{
+	declare n:integer;
+	get_value(n);
+	declare min:integer;
+	declare arr:array[0..n] of integer;
+	get_value(arr);
+	use module printArray with parameters arr;
+	declare finalindex: integer;
+	finalindex := n+1;
+	use module MergeSort with parameters arr, finalindex;
+
+	use module printArray with parameters arr;
+}
+
+
+<<module MergeSort>>
+takes input[A: array[m..n] of integer, n:integer];
+{
+	declare curr_size, left_start: integer;
+	declare iteration: integer;
+	iteration:=0;
+	curr_size := 1;
+	while(curr_size< n)
+	{
+		left_start := 0;
+		while(left_start<n-1)
+		{
+			declare mid, right_end: integer;
+			declare v1, v2, v3: integer;
+			v1 := left_start + curr_size-1;
+			v2 := left_start + 2*curr_size -1;
+			v3 := n-1;
+			[mid] := use module min with parameters v1, v3;
+			[right_end] := use module min with parameters v2, v3;	
+			iteration:= iteration+1;
+			use module merge with parameters A, left_start, mid, right_end;
+			print(iteration);			
+			print(A);
+			left_start := left_start + 2*curr_size;
+		}
+		curr_size := 2*curr_size;
+	}
+}
+
+
+
+<<module min>>
+takes input[x: integer, y:integer];
+returns [min:integer];
+{
+	declare b:boolean;
+	b := x <y;
+	switch(b)
+	{
+		case true:
+			min := x;
+			break;
+		case false:
+			min := y;
+			break;
+	}
+}
+
+
+
+

@@ -1,0 +1,77 @@
+declare module computeFreqArray;
+
+<<module calculateMinMax>>
+takes input [m: integer, n:integer, arr:array[m..n] of integer];
+returns [min: integer, max: integer];
+start
+	min := 2147483;
+	max := -2147483;
+	declare i:integer;
+	i:=m;
+	while(i<=n)
+	start
+		declare check1, check2: boolean;
+		check1:= min > arr[i];
+		check2 := max < arr[i];
+		switch(check1)
+		start
+			case true: 
+				min := arr[i];
+			break;
+		end
+		switch(check2)
+		start
+			case true:
+				max := arr[i];
+			break;
+		end
+		i := i+1;
+	end
+end
+
+
+<<<driver program>>>
+start
+	declare m, n, min, max, i:integer;
+	get_value(m);
+	get_value(n);
+	declare arr:array [m..n] of integer;
+	get_value(arr);
+	[min, max] := use module calculateMinMax with parameters m, n, arr;
+	declare A:array[min..max] of integer;
+	use module computeFreqArray with parameters m, n, arr, min, max, A;
+	i := min;
+	while(i<=max)
+	start
+		declare count:integer;
+		count := 0;
+		while(count<A[i])
+		start
+			print(i);
+			count := count + 1;
+		end
+		i := i+1;
+	end
+	print(A);
+end
+
+
+<<module computeFreqArray>>
+takes input [m: integer, n: integer, arr:array[m..n] of integer, min: integer, max:integer, A:array[min..max] of integer];
+start
+	declare i:integer;	
+	i := min;
+	while(i<=max)
+	start
+		A[i] := 0;
+		i:=i+1;
+	end
+	i := m;
+	while(i<=n)
+	start
+		declare index: integer;
+		index := arr[i];
+		A[index] := A[index] + 1;
+		i:=i+1;
+	end
+end
