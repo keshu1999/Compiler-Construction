@@ -53,7 +53,7 @@ You can use make clean to delete the old executable.
 ## For Executing the Assembly File
 - If the file is saved as `code.asm`, you can alternatively run it by executing `make run`.
 - Or else you can execute the following instructions.
-    - `nasm -f elf64 -o code.o {Assembly_file_name}.asm`
-    - `gcc -no-pie code.o -o code`
+    - `nasm -f elf64 -l code.lst {Assembly_file_name}.asm`
+    - `gcc -no-pie -m64 -o code code.o`
     - `./code`
 - To remove all .o files and the compiler executable, execute `make clean`
